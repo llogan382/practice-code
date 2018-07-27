@@ -9,8 +9,7 @@ class RobotTest extends PHPUnit\Framework\TestCase
 
     public function setUp()
     {
-      //this accesses $robot in the class
-      $this->robot = new Robot();
+        $this->robot = new Robot();
     }
 
     public function testHasName()
@@ -20,8 +19,7 @@ class RobotTest extends PHPUnit\Framework\TestCase
 
     public function testNameSticks()
     {
-      //   $this->markTestSkipped();
-
+        $this->markTestSkipped();
         $old = $this->robot->getName();
 
         $this->assertSame($this->robot->getName(), $old);
@@ -29,7 +27,7 @@ class RobotTest extends PHPUnit\Framework\TestCase
 
     public function testDifferentRobotsHaveDifferentNames()
     {
-      //   $this->markTestSkipped();
+        $this->markTestSkipped();
         $other_bot = new Robot();
 
         $this->assertNotSame($other_bot->getName(), $this->robot->getName());
@@ -39,7 +37,7 @@ class RobotTest extends PHPUnit\Framework\TestCase
 
     public function testresetName()
     {
-      //   $this->markTestSkipped();
+        $this->markTestSkipped();
         $name1 = $this->robot->getName();
 
         $this->robot->reset();
@@ -50,10 +48,9 @@ class RobotTest extends PHPUnit\Framework\TestCase
 
         $this->assertRegExp('/\w{2}\d{3}/', $name2);
     }
-
+  
     public function testNameArentRecycled()
     {
-
         $names = [];
 
         for ($i = 0; $i < 10000; $i++) {
