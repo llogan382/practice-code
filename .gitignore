@@ -2,7 +2,9 @@
 # os files
 *~
 *.DS_Store
+.DS_Store
 .svn
+user.json
 .solution.json
 .cvs
 *.bak
