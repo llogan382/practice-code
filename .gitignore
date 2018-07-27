@@ -1,0 +1,15 @@
+.DS_Store
+# os files
+*~
+*.DS_Store
+.svn
+*.solution.json
+.cvs
+*.bak
+*.swp
+Thumbs.db
+/vendor
+node_modules
+.phploy
+.code-workspace
+*.vscode
