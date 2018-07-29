@@ -1,0 +1,21 @@
+# os files
+*~
+*.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+/vendor
+node_modules
+user.json
+.config
+settings.json
+phpunit.phar
+exercism.code-workspace
+
+css/maps
+css/styles.css
+css/admin-styles.css
+js/maps
+js/all.js
