@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+      
+      <!-- the action attribute is the web address that processes the form -->
+      <!-- method is the HTTP attribute used to submit the form. Either POST or GET -->
+      <!-- POST sends sata to the Server.  -->
+      <!-- GET puts data into the URL, and data is separated by a question mark -->
+        <form action="">
+            
+            <h1>Lukes Form</h1>
+
+            <!-- FOR mathes with the ID in an input type -->
+            <label for="name">Name:</label>
+            <!-- type= what kind of input. ID helps to identify the element Name- helps server unserstand code -->
+            <input type="text" id="name" name="user_name">
+
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email">
+
+            <label for="password">password:</label>
+            <input type="password" id="password" name="user_password">
+            <button type="submit">SUBMIT</button>
+        </form>
+    </body>
+</html>
