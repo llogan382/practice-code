@@ -21,7 +21,7 @@ function wordcount( $input ) {
 	// \S is non-space
 	$input = strtolower( $input );
 	//search for non-word characters, replace with blank
-	$input = preg_replace( "/[\W]/", ' ', $input );
+	$input = preg_replace( '/[\W]/', ' ', $input );
 	//split into an array
 	$input = explode( ' ', $input );
 	//removes blank values in the array
