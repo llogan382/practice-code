@@ -60,7 +60,11 @@ class Collection
      */
     public function addListing($data = null)
     {
+<<<<<<< HEAD
         $listing = new ListingPremium($data);
+=======
+        $listing = new ListingBasic($data);
+>>>>>>> exercism-wordcount
         $this->listings[] = $listing;
         return $listing;
     }

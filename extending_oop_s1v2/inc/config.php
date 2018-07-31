@@ -4,8 +4,11 @@ session_start();
 //include the user class, pass in the database connection
 include __DIR__ . '/../classes/Collection.php';
 include __DIR__ . '/../classes/ListingBasic.php';
+<<<<<<< HEAD
 include __DIR__ . '/../classes/ListingPremium.php';
 
+=======
+>>>>>>> exercism-wordcount
 
 try {
     //create PDO connection

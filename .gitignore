@@ -1,13 +1,18 @@
+.DS_Store
 # os files
 *~
 *.DS_Store
+.DS_Store
 .svn
+user.json
+.solution.json
 .cvs
 *.bak
 *.swp
 Thumbs.db
 /vendor
 node_modules
+<<<<<<< HEAD
 user.json
 .config
 settings.json
@@ -19,3 +24,8 @@ css/styles.css
 css/admin-styles.css
 js/maps
 js/all.js
+=======
+.phploy
+.code-workspace
+*.vscode
+>>>>>>> exercism-wordcount
