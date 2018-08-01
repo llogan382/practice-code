@@ -1,21 +1,21 @@
 <?php
-include 'inc/config.php';
+// include 'inc/config.php';
+echo("This is great");
+// $filter = ['status'=>'active'];
+// if (isset($_GET['status'])) {
+//     $filter['status'] = filter_input(
+//         INPUT_GET, 
+//         'status', 
+//         FILTER_SANITIZE_STRING
+//     );
+// }
+// $directory->selectListings($filter);
 
-$filter = ['status'=>'active'];
-if (isset($_GET['status'])) {
-    $filter['status'] = filter_input(
-        INPUT_GET, 
-        'status', 
-        FILTER_SANITIZE_STRING
-    );
-}
-$directory->selectListings($filter);
+// $title = "PHP Conferences";
+// require 'inc/header.php';
 
-$title = "PHP Conferences";
-require 'inc/header.php';
-
-foreach ($directory->listings as $listing) {
-    include 'views/list_item.php';
-}
+// foreach ($directory->listings as $listing) {
+//     include 'views/list_item.php';
+// }
 
 require 'inc/footer.php';
