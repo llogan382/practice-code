@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,47 +17,37 @@
       <h1>
          This is a level 1 Header
       </h1>
-      <ul>
-         <li>home</li>
-         <li>about</li>
-         <li>articles</li>
-         <li>contact
-            <ul>
-               <li>emails</li>
-               <li>phone</li>
-               <li>address</li>
-            </ul>
-         </li>
-      </ul>
-
-      <h3>Top VR Resources</h3>
-         <ol>
-         <li>
-         Learn to create educational experiences in VR
-         </li>
-         <li>
-         Virtual Reality in Entertainment
-         </li>
-         <li>
-         Interact with buildings and products in VR
-         </li>
-         <li>
-         Use VR for teleconferencing and social media
-         </li>
-         </ol>
+      <nav>
+         <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>articles</li>
+            <li>contact</li>
+         </ul>
+      </nav>
    </header>
+   <section>
+      <article>
+      <h2>Information about this page</h2>
+      <a href="https://docs.google.com/document/d/1X0pxbk_DsmHXIruAfpoZRzLEcpid1WBuxGRi0qzCphA/edit">
+         Lukes notes from this course
+      </a>
+      <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <br />
+      </article>
+      <a href="http://www.teamtreehouse.com/vr" target="_blank">
+         Start your VR journey (new tab_)
+      </a>
+      <br />
+      <a href="http://www.teamtreehouse.com/vr">
+         Start your VR journey (no new tab_)
+      </a>
+   </section>
+   <section>
+      <h2>About this site.</h2>
+      <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <a href="https://docs.google.com/document/d/1X0pxbk_DsmHXIruAfpoZRzLEcpid1WBuxGRi0qzCphA/edit">
-        Lukes notes from this course
-    </a>
-   <br />
-    <a href="http://www.teamtreehouse.com/vr" target="_blank">
-       Start your VR journey (new tab_)
-    </a>
-   <br />
-    <a href="http://www.teamtreehouse.com/vr">
-      Start your VR journey (no new tab_)
-   </a>
+   </section>
    <br />
     <p>
         <!-- em is an inline elements. -->
@@ -94,5 +86,12 @@
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
+    <section>
+       <h2>Contact Us</h2>
+       <p>Email us at: </p>
+    </section>
+    <footer>
+       <p>&copy; 2018 Luke Logan Blog</p>
+    </footer>
 </body>
 </html>
