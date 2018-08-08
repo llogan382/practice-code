@@ -9,9 +9,11 @@ class WordCountTest extends PHPUnit\Framework\TestCase
         $this->assertEquals(['word' => 1], wordCount('word'));
     }
 
-    public function testCountOneOfEachWord()
+	 public function testCountOneOfEachWord()
+
     {
-        $this->markTestSkipped();
+		  $this->markTestSkipped();asd
+
         $this->assertEquals(['one' => 1, 'of' => 1, 'each' => 1], wordCount('one of each'));
     }
 
