@@ -2,3 +2,5 @@
 //the current page you are on. 
 var Message = "Hello";
 alert(Message); //notice how there are no quotes around "message" to call the variable. 
+Message = "welcome to Luke's awesome treehouse course!"
+alert(Message);
