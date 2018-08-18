@@ -1,4 +1,7 @@
-var alertrandom = function () {
+function getRandomNumber() {
     var randomNumber = Math.floor( Math.random() * 6 ) + 1;
-    alert(randomNumber);
-};
+    return randomNumber;
+}
+alert (getRandomNumber);
+console.log(getRandomNumber);
+var crazyNumber = getRandomNumber();
