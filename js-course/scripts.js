@@ -1,6 +1,7 @@
-var answer = prompt("What programming language is also the name of a gem?");
-if( answer.toUpperCase() === 'RUBY'){ 
-    document.write("<p> That's right!</p>");
+var randomNumber = Math.floor(Math.random() * 6 ) +1;
+var guess = prompt("I am thinking of a number between 1 and 6. What is it?");
+if (parseInt(guess)=== randomNumber) {
+    document.write('<p>You guessed the right number!</p>');
 } else {
-    document.write("<p>Sorry, that is incorrect</p>")
+    document.write('<p>sorry, you guessed wrong. The correct numbr is ' + randomNumber + '</p>');
 }
