@@ -5,7 +5,7 @@ body    {
     color: #878787;
     margin: 0;
 }
-header {
+.main-header {
     background-color: orange;
 }
 
@@ -23,8 +23,15 @@ h3  {
     color: #48525c;
 }
 
-#primary-content {
-    border: 3px solid red;
+.primary-content {
+    text-align: center;
+}
+
+.secondary-content {
+}
+.t-border {
+    border-top: 2px solid lightgrey;
+
 }
 
 #main-footer {
