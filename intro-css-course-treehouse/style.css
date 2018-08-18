@@ -1,0 +1,7 @@
+
+/* this is a SELECTOR * followed by a DECLARATION BLOCK */
+* {   
+    margin: 0;
+    padding: 0;
+    color: red; 
+}
