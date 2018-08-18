@@ -1,18 +1,35 @@
 
 /* this is a SELECTOR * followed by a DECLARATION BLOCK */
 
+/* Type Selectors */
+
 body    {
     color: #878787;
     margin: 0;
+    font-size: 1em;
 }
+
+/* id selectors */
+#main-footer    {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: solid 10px orange;
+}
+
+/* class selectors */
 .main-header {
-    background-color: orange;
+    background-color: orange; /*makes our header bg orange */
 }
 
 .title {
     color: white;
-    font-size: 26px;
+    font-size: 3em;
 }
+
+.primary-content, .secondary-content {
+    width: 60%;
+}
+/* type selectors */
 
 ol li {
     background-color: tomato;
@@ -34,13 +51,13 @@ h3  {
     color: #48525c;
 }
 
+
 .primary-content {
     text-align: center;
 }
 
 .t-border {
     border-top: 2px solid lightgrey;
-
 }
 
 a:link {
