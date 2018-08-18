@@ -1,7 +1,13 @@
-function getRandomNumber() {
-    var randomNumber = Math.floor( Math.random() * 6 ) + 1;
-    return randomNumber;
+
+function getRandomNumber( upper, lower ) {
+    if( isNaN(upper) || isNaN(lower)){
+        throw new Error("Please enter a number");
+    }
+    return  Math.floor( Math.random() * (upper - lower + 1)) + lower;
+    
 }
-alert (getRandomNumber);
-console.log(getRandomNumber);
-var crazyNumber = getRandomNumber();
+
+
+console.log( getRandomNumber( 16, 5));
+console.log( getRandomNumber( 16, 'five'));
+
