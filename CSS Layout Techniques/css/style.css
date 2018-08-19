@@ -123,6 +123,16 @@ a {
         border: solid 1px darkblue;
     }
 
+    .primary {
+        float: left;
+        width: 40%;
+        padding-right: 1em;
+    }
+    .secondary {
+        float: right;
+        width: 60%;
+    }
+
     .clearfix::after {
         content: ""; /* applies an empty, virtual element */
         display: table; /* displays pseudo element as a "table". */
