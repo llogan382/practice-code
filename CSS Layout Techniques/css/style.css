@@ -1,5 +1,5 @@
 /* ================================= 
-  Base Styles
+  Base Element Styles
 ==================================== */
 
 * {
@@ -11,10 +11,28 @@ body {
 	line-height: 1.6;
 	color: #3a3a3a;
 }
+.main-header {
+    text-align: center;
+}
+
+.name,
+.main-nav li {
+    text-align: center;
+    display: block;
+    margin-bottom: 1em;
+}
 
 p {
 	font-size: .95em;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.8em;
+}
+
+.banner .logo,
+.banner h1,
+.banner span {
+    margin: 0px auto;
+    text-align: center;
+    display: block;
 }
 
 h2,
@@ -31,6 +49,13 @@ h3 {
 a {
 	text-decoration: none;
 }
+.main-footer {
+    text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
 
 /* ================================= 
   Base Layout Styles
@@ -42,101 +67,96 @@ a {
 	font-size: 1.25em;
 }
 
-.name,
-.main-nav li {
-	text-align: center;
-	background: #fff;
-	margin-top: 6px;
-	margin-bottom: 6px;
-}
-
 .name a,
 .main-nav a {
-	padding: 10px 15px;
 	text-align: center;
-	display: block;
 }
 
-	.main-nav a {
-		font-size: .95em;
-		color: #3acec2;
-		text-transform: uppercase;
-	}
-	
-	.main-nav a:hover {
-		color: #093a58;
-	}
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
 
 /* ---- Layout Containers ---- */
 
-.container {
-	padding-left: 1em;
-	padding-right: 1em;
-}
-
-.main-header {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+.banner {
+	color: #fff;
 	background: #3acec2;
-    margin-bottom: 30px;
-    overflow: hidden;
 }
 
 .main-footer {
-	text-align: center;
-	padding: 2em 0;
 	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
 }
 
 /* ================================= 
   Media Queries
 ==================================== */
 
-@media (min-width: 789px) {
-
-	.wrap {
-		min-height: calc(100vh - 89px);
-	}
-
-	.container {
-		width: 85%;
-		max-width: 1150px;
-		margin: 0 auto;
-	}
-    .main-nav {
-        float: right;
-    }
+@media (min-width: 460px) {
     .main-nav li {
-        float: left;
-        margin-left: 12px;
+        display: inline-block;
+        margin: 0 auto;
+        margin-right: 1em;
+        margin-left: 1em;
     }
-    .name {
-        float: left;
+    .container {
+        max-width: 1180px;
+        width: 80%;
+        margin: 0px auto;
     }
-	.feat-img {
-		width: 300px;
+    .col {
         float: left;
-        margin-top: 5px;
-        margin-right: 25px;
-        margin-bottom: 25px;
-        padding: 10px;
-        border: solid 1px darkblue;
+        padding-left: 8px;
+        padding-right: 8px;
     }
-
     .primary {
-        float: left;
-        width: 40%;
-        padding-right: 1em;
+        width: 50%;
     }
     .secondary {
-        float: right;
-        width: 60%;
+        width: 50%;
+    }
+    .tertiary {
+        width: 100%;
     }
 
-    .clearfix::after {
-        content: ""; /* applies an empty, virtual element */
-        display: table; /* displays pseudo element as a "table". */
-        clear: both; /* the most impt part: this is related to floats. Clears collapsed space*/
+}
+
+@media (min-width: 769px) {
+
+
+    .col {
+        float: left;
+        padding-left: 8px;
+        padding-right: 8px;
     }
+    .primary {
+        width: 40%;
+    }
+    .secondary {
+        width: 30%;
+    }
+    .tertiary {
+        width: 30%;
+    }
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
 
 }
