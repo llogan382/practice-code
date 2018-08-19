@@ -1,4 +1,7 @@
 /* Base Styles -------------------- */
+* {
+  box-sizing: border-box;
+}
 
 body {
     color: #878787;
@@ -27,9 +30,14 @@ body {
     line-height: 1.2;
     margin-bottom: 1.7em; /* 34px */
   }
+  img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
   
   /* Pseudo-classes ------------------ */
-  
+
+
   a:link {
     color: rgb(255, 169, 73);
     text-decoration: none;
@@ -51,6 +59,11 @@ body {
   
   .main-header {
     background-color: #ffa949;
+    padding-top: 170px;
+    height: 850px;
+    background-image: url('../img/mountains.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .title {
@@ -102,8 +115,11 @@ body {
   
   .primary-content, 
   .secondary-content {
-    width: 60%;
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: auto;
+    max-width: 900px;
   }
   
   .wildlife {
@@ -112,4 +128,8 @@ body {
     padding: 18% 24%;
     border-top: 10px solid #ffa949;
     margin: 105px 0 60px;
+  }
+
+  .arrow {
+    width: 50px;
   }
