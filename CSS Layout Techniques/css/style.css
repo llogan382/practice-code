@@ -116,6 +116,15 @@ a {
         margin-right: 12px;
     }
 
+    .col {
+        display: inline-block;
+        margin-right: -4px;
+        width: 50%;
+        vertical-align: top;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
 }
 
 
