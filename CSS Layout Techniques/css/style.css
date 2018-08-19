@@ -50,21 +50,22 @@ a {
 	margin-bottom: 6px;
 }
 
-.main-nav a {
-	font-size: .95em;
-	color: #3acec2;
-	text-transform: uppercase;
-}
-
-.main-nav a:hover {
-	color: #093a58;
-}
-
 .name a,
 .main-nav a {
-    padding: 10px 15px;
-    display: block;
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
 }
+
+	.main-nav a {
+		font-size: .95em;
+		color: #3acec2;
+		text-transform: uppercase;
+	}
+	
+	.main-nav a:hover {
+		color: #093a58;
+	}
 
 /* ---- Layout Containers ---- */
 
@@ -74,7 +75,6 @@ a {
 }
 
 .main-header {
-    text-align: center;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	background: #3acec2;
@@ -91,42 +91,21 @@ a {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 789px) {
 
 	.wrap {
 		min-height: calc(100vh - 89px);
 	}
 
 	.container {
-		width: 80%;
+		width: 85%;
 		max-width: 1150px;
 		margin: 0 auto;
 	}
 
-	.name,
-	.main-nav li {
-		display: inline-block;
+	.feat-img {
+		width: 300px;
+
 	}
 
-	.name {
-		width: 240px;
-    }
-    .main-nav li {
-        margin-right: -4px;
-        margin-right: 12px;
-    }
-
-    .col {
-        display: inline-block;
-        margin-right: -4px;
-        width: 50%;
-        vertical-align: top;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
 }
-
-
-
-
