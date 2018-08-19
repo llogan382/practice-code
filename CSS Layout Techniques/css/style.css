@@ -62,7 +62,8 @@ a {
 
 .name a,
 .main-nav a {
-	padding: 10px 15px;
+    padding: 10px 15px;
+    display: block;
 }
 
 /* ---- Layout Containers ---- */
@@ -73,6 +74,7 @@ a {
 }
 
 .main-header {
+    text-align: center;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	background: #3acec2;
@@ -102,14 +104,12 @@ a {
 	}
 
 	.name,
-	.main-nav,
 	.main-nav li {
-		display: inline;
+		display: inline-block;
 	}
 
 	.name {
 		width: 240px;
-		margin-right: 50px;
 	}
 
 }
