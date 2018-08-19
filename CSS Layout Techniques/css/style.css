@@ -96,4 +96,14 @@ a {
 		margin: 0 auto;
 	}
 
+    .name,
+    .main-nav,
+    .main-nav li {
+        display: inline;
+    }
+
+    .name {
+        width: 240px;
+        margin-right: 50px;
+    }
 }
