@@ -124,9 +124,9 @@ a {
     }
 
     .clearfix::after {
-        content: "";
-        display: table;
-        clear: both;
+        content: ""; /* applies an empty, virtual element */
+        display: table; /* displays pseudo element as a "table". */
+        clear: both; /* the most impt part: this is related to floats. Clears collapsed space*/
     }
 
 }
