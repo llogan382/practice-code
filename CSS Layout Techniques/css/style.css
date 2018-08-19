@@ -43,15 +43,19 @@ img {
 
 figure {
 	margin: 0;
-	line-height: 0;
+    line-height: 0;
+    position: relative;
 }
 
 figcaption {
+    position: absolute;
 	font-size: .9em;
 	line-height: 1.5;
 	color: #fff;
 	padding: 1em;	
-	background: rgba(19,43,102, .85);
+    background: rgba(19,43,102, .85);
+    bottom: 0;
+    width: 100%;
 }
 
 /* ================================= 
@@ -125,13 +129,27 @@ figcaption {
 .headline {
 	margin-bottom: 0;
 }
+.icon-location {
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
 
 /* ================================= 
   Media Queries
 ==================================== */
 
 @media (min-width: 769px) {
-
+    body {
+        top: 68px;
+    }
+    .main-header {
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        top: 0;
+    }
 	.container {
 		width: 90%;
 		margin: 0 auto;
@@ -171,7 +189,7 @@ figcaption {
 }
 
 @media (min-width: 1025px) {
-	
+
 	.container {
 		width: 80%;
 		max-width: 1150px;
