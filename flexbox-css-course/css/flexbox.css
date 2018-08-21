@@ -14,14 +14,9 @@
 		flex-direction: column;
 		align-items: center;
 	}
+
 	.col {
-		flex: 1 50%;
-	}
-	.row {
-		flex-wrap: wrap;
-	}
-	.secondary {
-		order: -1; /* aligns this to the left*/
+		flex: 1;
 	}
 
 }
@@ -32,11 +27,5 @@
 		flex-direction: row;
 		justify-content: space-between;
 	}
-	.col {
-		flex-basis: 0;
-	}
-	.primary {
-		flex-grow: 1.4;
 
-	}
 }
