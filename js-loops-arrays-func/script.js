@@ -1,23 +1,6 @@
-var randomnumber = getrandomNumber(10);
-var guess;
-var guessCount = 0.
-var correctGuess = false;
+var html = "";
 
-
-
-function getrandomNumber(upper) {
-  return Math.floor( Math.random() * upper ) + 1;
+for (let i = 0; i <= 100; i++) {
+  html += '<p>' + i + ' guesses right </p>';
 }
-
-
-do {
-  guess = prompt("guess a number between 1 and 10")
-  guessCount += 1;
- if (parseInt(guess) === randomnumber ) {
-    correctGuess = true;
-  }
-} while ( ! correctGuess );
-
-
-document.write('the correct number was ' + randomnumber + '.')
-document.write('<p> It took the you ' + guessCount + ' number of times to guess right.</p> ');
+document.write(html);
