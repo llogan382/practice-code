@@ -2,8 +2,15 @@
   Base Styles
 ==================================== */
 
+body {
+	display: flex;
+	flex-direction: column; /* makes this a container, and everything else a child*/
+	min-height: 100vh;
+}
 
-
+.row {
+	flex: 1; /* this pushes the row to the bottom of the footer*/
+}
 /* ================================= 
   Media Queries
 ==================================== */
