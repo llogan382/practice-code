@@ -6,11 +6,13 @@
 .container {
 	display: flex;
 	flex-wrap: wrap;
+	height: 450px;
+	align-items: flex-start;
 }
 
 .item {
 
-	flex: 1 200px;
+	flex: 1;
 }
 
 .item-2 {
