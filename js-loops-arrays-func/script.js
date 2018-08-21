@@ -11,7 +11,7 @@ function getrandomNumber(upper) {
 
 
 do {
-  guess = prompt("guess a number between 1 amd 10")
+  guess = prompt("guess a number between 1 and 10")
   guessCount += 1;
  if (parseInt(guess) === randomnumber ) {
     correctGuess = true;
