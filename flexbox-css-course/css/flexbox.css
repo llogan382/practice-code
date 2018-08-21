@@ -9,6 +9,11 @@
   justify-content: space-around;
 }
 
+
+.item {
+  flex-grow: 1;
+}
+
 .item-1 {
-  margin-right: auto;
+  flex-grow: 4;
 }
