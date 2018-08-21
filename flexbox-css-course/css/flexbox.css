@@ -7,14 +7,21 @@
 	display: flex;
 	flex-wrap: wrap;
 	height: 450px;
-	align-items: center;
 }
 
 .item {
-
 	flex: 1;
+}
+
+.item-1 {
+	align-self: flex-start;
+}
+
+.item-4 {
+	align-self: center;
 }
 
 .item-2 {
 	flex: 2;
 }
+
