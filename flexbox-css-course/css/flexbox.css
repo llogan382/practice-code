@@ -9,7 +9,10 @@
 }
 
 .item {
-	flex-grow: 1;
-	flex-basis: 200px; /*items stay the same size until 
-	they reach this value */
+
+	flex: 1 200px;
+}
+
+.item-2 {
+	flex: 2;
 }
